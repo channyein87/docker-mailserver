@@ -7,7 +7,6 @@ services:
     domainname: ${DOMAINNAME}
     container_name: ${CONTAINER_NAME}
     ports:
-      - "25:25"
       - "465:465"
       - "995:995"
       - "993:993"
